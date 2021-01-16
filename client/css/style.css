@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/bg.png");
+}
+select{
+	-ms-text-align-last: center;
+	text-align-last: center;
+}
+.designBaniere{
+	padding: 18px;
+	font-size: 20px;
+	font-weight: bold;
+	background: rgb(53,166,174);
+	color: white; 
+}
+.bgColor:hover{
+	background: rgb(50,149,155);
+	color: white;
+}	
+.designMenu{
+	margin: 50px;
+}
+.bgColor{
+	background: rgb(53,166,174);
+	color: white;
+}
+.designTableau table{
+    width: 100%;
+    table-layout: fixed;
+    background: white;
+}
+.designTableau table th { 
+    background-color: rgb(245,245,245);
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.designTableau table tr{background: white;}
+.designTableau table tr td {text-align: center;
+    color: black;  padding: 3px;}

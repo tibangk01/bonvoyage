@@ -1,0 +1,132 @@
+body{
+    background: #efeff6;
+    font-size: 17px;
+    font-family: 'Garamond';
+    padding: 0;
+    margin : 3%  10% 0 10%;
+    background:url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+fieldset{
+    text-align: left;
+}
+a.menu{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    color: black;   
+}
+a.menu:hover{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    background: red;
+    color: black;   
+}
+
+/* utilities*/
+.text-center{
+    text-align: center;
+}
+.p-r-none{
+    padding-right: 0;
+}
+.m-r-10{
+    margin-right: 10px;
+}
+.pad-20{ /* pad-p : padding de la premiere ligne......*/
+    padding: 20px;
+}
+.pad-30{
+    padding: 30px;  
+}
+
+.pad-50{
+    padding: 50px;  
+}
+.mt5{
+    margin-top: 5%;
+}
+.mt3{
+    margin-top: 3%;
+}
+.ma{
+    margin: 0 auto;
+}
+.m5{margin:5px;}
+.m10{margin: 10px 0 ;}
+.formulaires{
+    width: 50%;
+    font-size: 16px;
+}
+.w20{width: 20%;}
+.w25{width: 25%;}
+.w30{width: 30%;}
+.w40{width: 40%;}
+.W45{width: 45%;}
+.w50{width: 50%;}
+.w60{width: 60%;}
+.w80{width: 75%;}
+.w90{width: 90%;}
+.w100{width: 100%;}
+
+/* utilities*/
+
+/* design de la première ligne du grid*/
+.m-col-1-child{
+    margin: 10px;
+}
+/* design de la première ligne du grid*/
+
+
+/*
+* design du tableau ==>
+*/
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    background: white;
+}
+th { 
+    background-color: #9fa0a3;
+    color: black ;
+    text-align: center;
+    padding: 5px;
+}
+tr{background-color: #cfb098;}
+td {
+    text-align: center;
+    color: black;
+} 
+
+/*
+* design du tableau <==
+*/
+
+.dmcaissier{
+    background: #9fa0a3;
+    color : black;
+    border-radius: 15px 15px 0 0 ;
+    font-weight: bold;
+}
+
+.dac{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dfebillets{
+   color : black; 
+   font-weight: bold;
+   font-size: 16px;
+}
